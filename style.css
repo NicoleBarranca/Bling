@@ -3,3 +3,22 @@ body {
   padding: 0;
   margin: 0;
 }
+
+nav {
+  background-color: #111;
+  color: white;
+  padding: 20px 50px;
+}
+
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* add style for search icon */
+
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+}
