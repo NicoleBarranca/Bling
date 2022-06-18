@@ -21,4 +21,16 @@ nav {
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid green;
+  cursor: pointer;
+}
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgrey;
+  font-weight: 400;
 }
