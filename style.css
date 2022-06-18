@@ -60,3 +60,44 @@ nav {
 .searchIcon {
   color: lightgray;
 }
+
+.slider {
+  background-image: url(img/Background.jpg);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+/* SLIDER */
+#earing {
+  width: 575px;
+  height: 372px;
+  border-radius: 10px;
+}
+
+#bracelet {
+  width: 575px;
+  height: 372px;
+  border-radius: 10px;
+}
+
+#necklace {
+  width: 575px;
+  height: 372px;
+  border-radius: 10px;
+}
+
+#ring {
+  width: 575px;
+  height: 372px;
+  border-radius: 10px;
+}
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
