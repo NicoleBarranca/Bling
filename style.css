@@ -110,7 +110,6 @@ nav {
   height: 750px;
   border-radius: 50%;
   position: absolute;
-  background-color: #34a0a4;
 }
 
 .sliderImg {
@@ -156,4 +155,36 @@ nav {
 .buyButton:hover {
   background-color: white;
   color: black;
+}
+
+.sliderItem:nth-child(1) .sliderBg {
+  background-color: #d9ed92;
+}
+
+.sliderItem:nth-child(2) .sliderBg {
+  background-color: #76c893;
+}
+
+.sliderItem:nth-child(3) .sliderBg {
+  background-color: #52b69a;
+}
+
+.sliderItem:nth-child(4) .sliderBg {
+  background-color: #34a0a4;
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+  background-color: #d9ed92;
+}
+
+.sliderItem:nth-child(2) .sliderPrice {
+  background-color: #76c893;
+}
+
+.sliderItem:nth-child(3) .sliderPrice {
+  background-color: #52b69a;
+}
+
+.sliderItem:nth-child(4) .sliderPrice {
+  background-color: #34a0a4;
 }
