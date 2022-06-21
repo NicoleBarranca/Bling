@@ -4,7 +4,8 @@ const menuItems = document.getElementsByClassName("menuItem");
 
 Array.from(menuItems).forEach((item, index) => {
   item.addEventListener("click", () => {
-    console.log(" you have clicked!" + index);
+    // console.log(" you have clicked!" + index);
+    wrapper.style.transform = `translateX(${-100 * index}vw)`;
   });
 });
 
