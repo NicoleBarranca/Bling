@@ -51,7 +51,10 @@
           <div class="sliderBg"></div>
           <h1 class="sliderTitle">Diamond </br> Stud Earings</h1>
           <h2 class="sliderPrice">$198</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+       
         </div>
         <div class="sliderItem">
             <img
@@ -63,7 +66,9 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Diamond </br> Bracelet</h1>
             <h2 class="sliderPrice">$118</h2>
-            <button class="buyButton">BUY NOW!</button>
+            <a href="#product">
+                <button class="buyButton">BUY NOW!</button>
+              </a>
           </div>
           <div class="sliderItem">
             <img
@@ -75,7 +80,9 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Square Diamond</br>Necklace</h1>
             <h2 class="sliderPrice">$178</h2>
-            <button class="buyButton">BUY NOW!</button>
+            <a href="#product">
+                <button class="buyButton">BUY NOW!</button>
+              </a>
           </div>
           <div class="sliderItem">
             <img
@@ -87,7 +94,9 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Blue Stone </br>Diamond Ring</h1>
             <h2 class="sliderPrice">$216</h2>
-            <button class="buyButton">BUY NOW!</button>
+            <a href="#product">
+                <button class="buyButton">BUY NOW!</button>
+              </a>
           </div>
       </div>
     </div>
@@ -115,7 +124,7 @@
             <span class="featureDesc">Keep in touch via email and support system.</span>
         </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
         <img src="img/EARING.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">Diamond <br> Stud Earings</h1>
@@ -134,7 +143,45 @@
                     </div>
                     <button class="productbutton">BUY NOW!</button>
         </div>
-        
+        <div class="payment">
+            <h1 class="payTitle">Payment Information</h1>
+            <label >First and Last Name</label>
+            <input type="text " class="payInput" placeholder="Jane Doe">
+            <label>Phone Number</label>
+            <input type="text " class="payInput" placeholder="(123) 456-7890">
+            <label>Address</label>
+            <input type="text " class="payInput" placeholder="222 Awesome Ave...">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="img/Visa.png" width="40" alt="Visa card icon" class="cardIcon">
+                <img src="img/masterCard.png" width="40" alt="MasterCard card icon" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+       
+       
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Don't Be Afraid To Shine</h1>
+            <img src="img/Model1.jpg" alt="woman showing off diamond Earings" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+
+            <img src="img/Model2.jpg" alt="woman showing off diamond Earings" class="galleryImg">
+            <h1 class="galleryTitle">Express Yourself</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Show Off!</h1>
+            <img src="img/Model3.jpg" alt="woman showing off diamond Earings" class="galleryImg">
+        </div>
     </div>
     <script src="app.js"></script>
   </body>
